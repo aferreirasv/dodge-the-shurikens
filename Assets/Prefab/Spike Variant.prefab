@@ -62,10 +62,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3917432967135255301, guid: bb97361e716908c4984ac2bcdebd4272,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3917432967135255301, guid: bb97361e716908c4984ac2bcdebd4272,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: -658564155
+      objectReference: {fileID: 0}
+    - target: {fileID: 3917432967135255301, guid: bb97361e716908c4984ac2bcdebd4272,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4638921241428781022, guid: bb97361e716908c4984ac2bcdebd4272,
         type: 3}
       propertyPath: m_Name
-      value: Spike
+      value: Spike Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb97361e716908c4984ac2bcdebd4272, type: 3}

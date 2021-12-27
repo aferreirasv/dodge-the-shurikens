@@ -9,11 +9,12 @@ public class Food : MonoBehaviour
     public float value;
     GameManager gameManager;
     AudioSource audioSource;
-
+    public Light light;
     private void Start()
     {
         GameObject gameManagerObj = GameObject.FindGameObjectWithTag("gamemanager");
         audioSource = GetComponent<AudioSource>();
+        light = GetComponent<Light>();
         if (gameManagerObj != null)
         {
             gameManager = gameManagerObj.GetComponent<GameManager>();
